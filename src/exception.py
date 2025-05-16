@@ -1,9 +1,9 @@
 import sys 
 import logging
-import logger
+from src.logger import logging
 
 
-logging.info("This is a test log from exception.py")
+
 
 
 def error_message_detail(error, error_detail:sys):
